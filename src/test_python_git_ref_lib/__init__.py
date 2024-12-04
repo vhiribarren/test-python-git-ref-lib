@@ -2,4 +2,5 @@ import pendulum
 import requests
 
 def hello() -> str:
-    return "Hello from test-python-git-ref-lib!"
+    print("Hello from test-python-git-ref-lib!")
+    print("It is", pendulum.now("Europe/Paris"))
